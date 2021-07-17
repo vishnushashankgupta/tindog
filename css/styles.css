@@ -1,0 +1,172 @@
+body{
+    font-family: 'Montserrat-thin';  
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "montserrat-bold";
+    
+}
+/* Headings */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+.price-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+.container-fliud{
+    padding: 3% 15% 6%;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.Download-button{
+    margin:5% 3% 5% 0;
+}
+
+/* Section */
+
+.colored-section{
+    color: #fff;
+    background:#ff4c68;
+}
+.white-section{
+    background:#fff;
+}
+
+
+/*title image*/
+.title-image{
+    width: 60%;
+    transform: rotate(25deg); 
+    position: absolute;
+    right: 30%;
+}
+h2{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+/* Features Section */
+#features{
+    padding: 7% 15%;
+    position: relative;
+}
+.logo{
+    color: #ef8172;
+}
+p{
+    color: #8f8f8f;
+    font-family: 'Montserrat-thin';
+    font-size: 1.2rem;
+}
+.logo:hover{
+    color: #ff4c68;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+/* testimonials section*/
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#press{
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.sign-up{
+    transition-duration: 0.4s;
+    margin-top: 25px;
+
+}
+
+/* Pricing section */
+
+
+#pricing{
+    padding: 100px;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+
+}
+.card{
+    line-height: 0.7;
+    font-size: 1rem ;
+    height: 100% !important;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px #dfdfdf;
+}
+
+#cta{
+    padding: 100px; 
+   
+}
+
+.cta-icon{
+    margin:5% 3% 5% 0;
+
+}
+.play-icon{
+    color: #000;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#footer{
+    padding: 7% 15%;
+}
+.footer-icon{
+    margin: 20px 10px;
+}
